@@ -1,0 +1,6 @@
+Author: Adam Kniffin
+Date: 2/14/2016
+Description: This is the README file for lab6 cs 162. It contains compilation instructions
+
+Instructions for compilation: The programs have been added to a makefile named "prog". In order for the compilation to occur type make all, followed by prog. This will compile all of the programs together. To
+ "clean" the files, type "clean all". 
