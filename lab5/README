@@ -1,0 +1,23 @@
+Author: Adam Kniffin
+Date: 1/28/2016
+Description: This is the README file for lab5 cs 199. It contains compilation instructions
+
+Instructions for compilation: The programs have been added to a makefile named "prog". In order for the compilation to occur type make all, followed by prog. This will compile all of the programs together. To
+ "clean" the files, type "clean all". 
+
+
+***  3 Things I found difficult about this lab  ***
+
+1) The biggest issue I had with the lab was using the correct constructors. At first I was not totally sure how to initialize the member variables if they were inherited but was able to find my errors and make the correct adjustments.
+
+2) Using srand properly. I was not getting random numbers for awhile and I found out that it was because I had srand multiple times and it was causing some sort of error.
+
+3)Figuring out a way to loop with all of the given conditions. It was difficult to find a way to continue the loop when your attacks were at 0 but you still wanted to add some if statement to see if more attacks would be done.
+
+***  3 Things I learned from this lab  ***
+
+1) I have used boolean flags before but I felt that it was extremely helpful in this specific lab. When first creating my while loop I had a bunch of requirements to make it stop, but I then used a single boolean variable and once all those conditions were met in my loop, I would simply make it true, to stop looping.
+
+2) I learned more about inheritance and in particular, abstract classes. At first I was not sure if abstract classes needed a cpp file, or really, what they were there for. After doing the lab I can now see exactly what their purpose is and how they are useful for writing programs.
+
+3)I also learned how to create pointer to objects of the parent class so that all child classes can be accessed. I had this problem many times in other classes and always wondered what a particular answer to the problem was, now I have one. 
